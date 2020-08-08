@@ -6,15 +6,15 @@ export default {
     RPCCheck_fail: 'Det ser ut til at RPC for øyeblikket ikke er synkronisert, saldoen kan være feil og TX-er vil ikke fungere. Funksjonaliteten blir gjenopprettet så snart som mulig.',
     // Routes
     routes: {
-        config: 'Configuration',
+        config: 'Konfigurasjon',
         settings: 'Innstillinger',
         send: 'Sende',
         txs: 'Transaksjoner',
         receive: 'Motta',
-        home: 'Home',
-        supcurr: 'Supported Currencies',
-        suplang: 'Supported Languages',
-        keystore: 'Export Keystore',
+        home: 'Hjem',
+        supcurr: 'Støttede valutaer',
+        suplang: 'Støttede språk',
+        keystore: 'Eksporter Keystore',
     },
     // About Component
     about: {
@@ -47,9 +47,9 @@ export default {
     },
     // Keystore
     keystore: {
-        fail: 'Failed to Generate a Keystore, Please contact us.',
-        success: 'Keystore created successfully.',
-        message: 'Simply copy the generated keystore and paste in a file called keystore.json - You can then use your mobile wallet on MyEtherWallet or MyCrypto. When prompted for your password you use your app pin.',
+        fail: 'Kunne ikke generere Keystore, vennligst kontakt oss.',
+        success: 'Keystore ble vellykket opprettet .',
+        message: 'Bare kopier den genererte keystore og lim inn en fil som heter keystore.json - Du kan deretter bruke din mobile lommebok på MyEtherWallet eller MyCrypto. Når du blir bedt om passordet ditt, bruker du app-knappen.',
     },
     // Home Page
     home: {
@@ -102,7 +102,7 @@ export default {
         no_match: 'Pinkodene stemmer ikke overens',
         weak_pin: 'Den valgte koden er veldig svak. Den må være minst 10 tegn lang og ha et tall.',
         copied: 'Teksten er kopiert',
-        language: 'Please select your preferred language:',
+        language: 'Velg ønsket språk:',
     },
     // Receive Page
     receive: {
@@ -153,10 +153,10 @@ export default {
         about: 'Om Black Wallet:',
         about_etho: 'Om Ether-1',
         error_offline: 'Frakoblet',
-        keystore: 'GENERATE KEYSTORE',
-        about_black: 'About etho.black',
-        about_ncr: 'About 3rd Party Developer (newCodeRunner)',
-        stats: 'Ether-1 Network Stats',
+        keystore: 'GENERER KEYSTORE',
+        about_black: 'Om etho.black',
+        about_ncr: 'Om tredjepartsutvikler (newCodeRunner)',
+        stats: 'Ether-1 Nettverks Statistikk',
         git: 'Ether-1 Github',
     },
     // SupportedCurrencies Page
