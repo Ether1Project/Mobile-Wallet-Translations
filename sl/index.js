@@ -15,6 +15,7 @@ export default {
         supcurr: 'Podprte valute',
         suplang: 'Podprti jeziki',
         keystore: 'Izvozi Keystore',
+        supnet: 'Supported Networks',
     },
     // About Component
     about: {
@@ -59,13 +60,17 @@ export default {
         mdata_error: 'Zahtevanih tržnih podatkov ni mogoče pridobiti',
         last_tx_in: 'Zadnji TX v:',
         last_tx_out: 'Zadnji TX ven:',
-        receive: 'Prejmi ETHO',
-        send: 'Pošlji ETHO',
+        receive: 'Prejmi',
+        send: 'Pošlji',
         website: 'Ether-1 Spletna stran',
         settings: 'Nastavitve Aplikacije',
         txs: 'Transakcije',
         error_getting_txs: 'Napaka pri prejemu transakcij',
         copied: 'Kopirano Besedilo',
+        not_signed_in: 'Please Sign in',
+       markets_not_supported: 'Market Stats Not Supported on:',
+       conv_not_supported: 'Price Conversion Not Supported on:',
+       transactions_not_supported: 'TX Tracking is not available on:'
     },
     // User Index (Wallet Setup)
     index: {
@@ -108,8 +113,8 @@ export default {
     receive: {
         scan: 'Za prejem, skeniraj QR kodo',
         address: 'Naslov',
-        warning: 'Na ta naslov lahko prejmete samo ETHO!',
-        current_price: 'Trenutna ETHO cena v',
+        warning: 'Na ta naslov lahko prejmete samo EVM coins!',
+        current_price: 'Trenutna cena v',
         wallet_addr: 'Naslov Denarnice',
         copied: 'Kopirano besedilo',
     },
@@ -158,6 +163,7 @@ export default {
         about_ncr: 'O razcijalcu tretje osebe (newCodeRunner)',
         stats: 'Ether-1 Statistika Omrežja',
         git: 'Ether-1 Github',
+        select_network: 'Select Blockchain',
     },
     // SupportedCurrencies Page
     SupportedCurrencies: {

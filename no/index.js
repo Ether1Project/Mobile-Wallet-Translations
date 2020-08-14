@@ -15,6 +15,7 @@ export default {
         supcurr: 'Støttede valutaer',
         suplang: 'Støttede språk',
         keystore: 'Eksporter Keystore',
+        supnet: 'Supported Networks',
     },
     // About Component
     about: {
@@ -59,13 +60,17 @@ export default {
         mdata_error: 'Kan ikke hente forespurte markedsdata',
         last_tx_in: 'Siste TX inn:',
         last_tx_out: 'Siste TX ut:',
-        receive: 'Motta ETHO',
-        send: 'Sende ETHO',
+        receive: 'Motta',
+        send: 'Sende',
         website: 'Ether-1 Hjemmeside',
         settings: 'App Innstillinger',
         txs: 'Transaksjoner',
         error_getting_txs: 'Feil ved henting av transaksjoner',
         copied: 'Teksten er kopiert',
+        not_signed_in: 'Please Sign in',
+       markets_not_supported: 'Market Stats Not Supported on:',
+       conv_not_supported: 'Price Conversion Not Supported on:',
+       transactions_not_supported: 'TX Tracking is not available on:'
     },
     // User Index (Wallet Setup)
     index: {
@@ -109,7 +114,7 @@ export default {
         scan: 'Skann QR-koden for å motta',
         address: 'Adresse',
         warning: 'Du kan kun motta ETHO til denne adressen!',
-        current_price: 'Nåværende pris på ETHO',
+        current_price: 'Nåværende pris på',
         wallet_addr: 'Lommebok Adresse',
         copied: 'Teksten er kopiert',
     },
@@ -158,6 +163,7 @@ export default {
         about_ncr: 'Om tredjepartsutvikler (newCodeRunner)',
         stats: 'Ether-1 Nettverks Statistikk',
         git: 'Ether-1 Github',
+        select_network: 'Select Blockchain',
     },
     // SupportedCurrencies Page
     SupportedCurrencies: {

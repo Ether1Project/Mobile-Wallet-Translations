@@ -15,6 +15,7 @@ export default {
         supcurr: 'Pièces connues',
         suplang: 'Langues connues',
         keystore: 'Exporter la clé',
+        supnet: 'Supported Networks',
     },
     // About Component
     about: {
@@ -59,13 +60,17 @@ export default {
         mdata_error: 'Impossible de récupérer les données de marché demandées',
         last_tx_in: 'Dernier TX Recu:',
         last_tx_out: 'Dernier TX Expédié:',
-        receive: 'Recevoir ETHO',
-        send: 'Expédié ETHO',
+        receive: 'Recevoir',
+        send: 'Expédié',
         website: 'Ether-1 Site',
         settings: 'Paramètres de la application',
         txs: 'Transactions',
         error_getting_txs: 'Erreur lors de la récupération de la transactions',
         copied: 'Texte copié',
+        not_signed_in: 'Please Sign in',
+        markets_not_supported: 'Market Stats Not Supported on:',
+        conv_not_supported: 'Price Conversion Not Supported on:',
+        transactions_not_supported: 'TX Tracking is not available on:'
     },
     // User Index (Wallet Setup)
     index: {
@@ -108,8 +113,8 @@ export default {
     receive: {
         scan: 'Scannez le code QR pour recevoir',
         address: 'Adresse',
-        warning: "Vous ne pouvez recevoir ETHO qu'à cette adresse!",
-        current_price: 'Prix ​​ETHO actuel en',
+        warning: "Vous ne pouvez recevoir EVM coins qu'à cette adresse!",
+        current_price: 'Prix actuel en',
         wallet_addr: 'Adresse du portefeuille',
         copied: 'Texte copié',
     },
@@ -158,6 +163,7 @@ export default {
         about_etho: 'À propos Ether-1:',
         error_offline: 'Hors Ligne',
         keystore: 'GENERATE KEYSTORE',
+        select_network: 'Select Blockchain',
     },
     // SupportedCurrencies Page
     SupportedCurrencies: {

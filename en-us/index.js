@@ -15,6 +15,7 @@ export default {
         supcurr: 'Supported Currencies',
         suplang: 'Supported Languages',
         keystore: 'Export Keystore',
+        supnet: 'Supported Networks',
     },
     // About Component
     about: {
@@ -59,13 +60,17 @@ export default {
         mdata_error: 'Unable to retrieve requested market data',
         last_tx_in: 'Last TX in:',
         last_tx_out: 'Last TX out:',
-        receive: 'Receive ETHO',
-        send: 'Send ETHO',
+        receive: 'Receive',
+        send: 'Send',
         website: 'Ether-1 Website',
         settings: 'App Settings',
         txs: 'Transactions',
         error_getting_txs: 'Error Retrieving Transactions',
         copied: 'Copied Text',
+        not_signed_in: 'Please Sign in',
+        markets_not_supported: 'Market Stats Not Supported on:',
+        conv_not_supported: 'Price Conversion Not Supported on:',
+        transactions_not_supported: 'TX Tracking is not available on:'
     },
     // User Index (Wallet Setup)
     index: {
@@ -108,8 +113,8 @@ export default {
     receive: {
         scan: 'Scan the QR code to receive',
         address: 'Address',
-        warning: 'You can only recieve ETHO to this address!',
-        current_price: 'Current ETHO Price in',
+        warning: 'You can only recieve EVM coins to this address!',
+        current_price: 'Price in',
         wallet_addr: 'Wallet Address',
         copied: 'Copied Text',
     },
@@ -158,6 +163,7 @@ export default {
         about_ncr: 'About 3rd Party Developer (newCodeRunner)',
         stats: 'Ether-1 Network Stats',
         git: 'Ether-1 Github',
+        select_network: 'Select Blockchain',
     },
     // SupportedCurrencies Page
     SupportedCurrencies: {

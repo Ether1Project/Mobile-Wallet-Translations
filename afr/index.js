@@ -15,6 +15,7 @@ export default {
         supcurr: 'Ondersteunde geldeenhede',
         suplang: 'Ondersteunde tale',
         keystore: 'Generate Keystore',
+        supnet: 'Supported Networks',
     },
     // About Component
     about: {
@@ -59,13 +60,17 @@ export default {
         mdata_error: 'Kan nie aangevraagde markdata ophaal nie',
         last_tx_in: 'Laaste TX in:',
         last_tx_out: 'Laaste TX uit:',
-        receive: 'Ontvang ETHO',
-        send: 'Stuur ETHO',
+        receive: 'Ontvang',
+        send: 'Stuur ',
         website: 'Ether-1 Webwerf',
         settings: 'Programinstellings',
         txs: 'transaksies',
         error_getting_txs: 'Kon nie transaksies ophaal nie',
         copied: 'Gekopieerde teks',
+        not_signed_in: 'Please Sign in',
+        markets_not_supported: 'Market Stats Not Supported on:',
+        conv_not_supported: 'Price Conversion Not Supported on:',
+        transactions_not_supported: 'TX Tracking is not available on:'
     },
     // User Index (Wallet Setup)
     index: {
@@ -108,8 +113,8 @@ export default {
     receive: {
         scan: 'Skandeer die QR-kode om te ontvang',
         address: 'adres',
-        warning: 'U kan slegs ETHO na hierdie adres ontvang!',
-        current_price: 'Huidige ETHO-prys in',
+        warning: 'U kan slegs EVM coins na hierdie adres ontvang!',
+        current_price: '-prys in',
         wallet_addr: 'Wallet-adres',
         copied: 'Gekopieerde teks',
     },
@@ -158,6 +163,7 @@ export default {
         about_ncr: 'About 3rd Party Developer (newCodeRunner)',
         stats: 'Ether-1 Network Stats',
         git: 'Ether-1 Github',
+        select_network: 'Select Blockchain',
     },
     // SupportedCurrencies Page
     SupportedCurrencies: {

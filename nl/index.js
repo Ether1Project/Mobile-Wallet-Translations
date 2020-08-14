@@ -15,6 +15,7 @@ export default {
         supcurr: 'Beschikbare Currencies',
         suplang: 'Beschikbare Talen',
         keystore: 'Exporteer Sleutel',
+        supnet: 'Supported Networks',
     },
     // About Component
     about: {
@@ -59,13 +60,17 @@ export default {
         mdata_error: 'Kan gevraagde marktgegevens niet ophalen',
         last_tx_in: 'Laatste TX in:',
         last_tx_out: 'Laatste TX out:',
-        receive: 'Ontvang ETHO',
-        send: 'Verstuur ETHO',
+        receive: 'Ontvang',
+        send: 'Verstuur',
         website: 'Ether-1 Website',
         settings: 'App Instellingen',
         txs: 'Transacties',
         error_getting_txs: 'Error Opvragen Transacties',
         copied: 'Tekst gekopieerd',
+        not_signed_in: 'Please Sign in',
+        markets_not_supported: 'Market Stats Not Supported on:',
+        conv_not_supported: 'Price Conversion Not Supported on:',
+        transactions_not_supported: 'TX Tracking is not available on:'
     },
     // User Index (Wallet Setup)
     index: {
@@ -107,9 +112,9 @@ export default {
     // Receive Page
     receive: {
         scan: 'Scan de QR-code om te ontvangen',
-        address: 'ETHO Adres',
-        warning: 'U kunt ETHO alleen op dit adres ontvangen!',
-        current_price: 'ETHO Prijs in',
+        address: 'Adres',
+        warning: 'U kunt EVM coins alleen op dit adres ontvangen!',
+        current_price: 'Prijs in',
         wallet_addr: 'Portomonnee adres',
         copied: 'Tekst gekopierd',
     },
@@ -158,6 +163,7 @@ export default {
         about_ncr: 'Over 3de Partij Ontwikkelaar (newCodeRunner)',
         stats: 'Ether-1 Netwerk Status',
         git: 'Ether-1 Github',
+        select_network: 'Select Blockchain',
     },
     // SupportedCurrencies Page
     SupportedCurrencies: {
