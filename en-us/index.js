@@ -145,7 +145,7 @@ export default {
     tx_success: 'TRANSACTION COMPLETED',
     tx_failed: 'TRANSACTION FAILED',
     online: 'Cloud Contact',
-    no_online: 'Please search for a username, if none appear here, they do not exist in our database',
+    no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
   },
   // Settings Page
   settings: {

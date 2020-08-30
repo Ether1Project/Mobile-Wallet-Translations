@@ -144,6 +144,8 @@ export default {
     app_error: 'Onverwachte Error, Installeer de app opnieuw',
     tx_success: 'TRANSACTION SUCCESVOL',
     tx_failed: 'TRANSACTION MISLUKT',
+    online: 'Cloud Contact',
+    no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
   },
   // Settings Page
   settings: {

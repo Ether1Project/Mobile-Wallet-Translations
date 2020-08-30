@@ -144,6 +144,8 @@ export default {
     app_error: 'Uventet feil. Installer appen på nytt',
     tx_success: 'TRANSAKSJON FULLFØRT',
     tx_failed: 'TRANSAKSJON FEILET',
+    online: 'Cloud Contact',
+    no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
   },
   // Settings Page
   settings: {

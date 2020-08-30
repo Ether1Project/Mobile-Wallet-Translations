@@ -144,6 +144,8 @@ export default {
     app_error: 'Nepričakovana napaka. Znova namestite aplikacijo',
     tx_success: 'TRANSAKCIJA ZAKLJUČENA',
     tx_failed: 'TRANSAKCIJA NI USPELA',
+    online: 'Cloud Contact',
+    no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
   },
   // Settings Page
   settings: {
