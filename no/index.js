@@ -70,7 +70,7 @@ export default {
     not_signed_in: 'Please Sign in',
     markets_not_supported: 'Market Stats Not Supported on:',
     conv_not_supported: 'Price Conversion Not Supported on:',
-    transactions_not_supported: 'TX Tracking is not available on:'
+    transactions_not_supported: 'TX Tracking is not available on:',
   },
   // User Index (Wallet Setup)
   index: {
@@ -82,15 +82,15 @@ export default {
     reset: 'Vi kan ikke tilbakestille pinkoden din.',
     backup: 'Ta sikkerhetskopi av din private nøkkel.',
     client: 'Du er ansvarlig for lommeboken, appen bruker bare vår RPC til å kringkaste transaksjoner.',
-    pin: "Hvis du deaktiverer telefonens Pin, Face eller Touch ID, mister du tilgang til lommeboken og midlene, det er grunnen til at du bør sikkerhetskopiere din private nøkkel.",
+    pin: 'Hvis du deaktiverer telefonens Pin, Face eller Touch ID, mister du tilgang til lommeboken og midlene, det er grunnen til at du bør sikkerhetskopiere din private nøkkel.',
     understand: 'Jeg forstår',
-    setting: "Vi jobber med å sette opp din",
+    setting: 'Vi jobber med å sette opp din',
     wallet: 'Ether-1 Lommebok',
     address: 'Nedenfor er din unike lommebokadresse:',
     pkey: 'Nedenfor er din private nøkkel:',
     backup_pkey: 'Husk å ta sikkerhetskopi av din private nøkkel!',
-    got_it: "Jeg har det!",
-    set: "Alt er klart, din",
+    got_it: 'Jeg har det!',
+    set: 'Alt er klart, din',
     ready: 'klar!',
     by: 'av:',
     funded: 'finansiert',
@@ -146,6 +146,7 @@ export default {
     tx_failed: 'TRANSAKSJON FEILET',
     online: 'Cloud Contact',
     no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
+    add: 'Download Contact',
   },
   // Settings Page
   settings: {

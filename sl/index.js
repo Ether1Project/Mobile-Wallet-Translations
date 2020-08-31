@@ -3,7 +3,7 @@ export default {
   failed: 'Ukrep ni uspel',
   success: 'Ukrep je uspel',
   RPCCheck: 'Všetky systémy sú online',
-  RPCCheck_fail: "Zdi se, da naš RPC trenutno ni sinhroniziran, Stanja morda niso pravilna in TX - ji ne bodo delovali.Funkcionalnost bo obnovljena v najkrajšem možnem času.",
+  RPCCheck_fail: 'Zdi se, da naš RPC trenutno ni sinhroniziran, Stanja morda niso pravilna in TX - ji ne bodo delovali.Funkcionalnost bo obnovljena v najkrajšem možnem času.',
   // Routes
   routes: {
     config: 'Konfiguracija',
@@ -70,7 +70,7 @@ export default {
     not_signed_in: 'Please Sign in',
     markets_not_supported: 'Market Stats Not Supported on:',
     conv_not_supported: 'Price Conversion Not Supported on:',
-    transactions_not_supported: 'TX Tracking is not available on:'
+    transactions_not_supported: 'TX Tracking is not available on:',
   },
   // User Index (Wallet Setup)
   index: {
@@ -82,15 +82,15 @@ export default {
     reset: 'PIN-a ne moremo ponastaviti.',
     backup: 'Varnostno kopirajte svoj zasebni ključ.',
     client: 'Odgovorni ste za svojo denarnico, aplikacija je v celoti na strani stranke in uporablja le naš RPC za oddajanje transakcij.',
-    pin: "Če onemogočite svoj telefon PIN, Face ali Touch ID, boste izgubili dostop do denarnice in sredstev, zato morate varnostno kopirati zasebni ključ.",
+    pin: 'Če onemogočite svoj telefon PIN, Face ali Touch ID, boste izgubili dostop do denarnice in sredstev, zato morate varnostno kopirati zasebni ključ.',
     understand: 'Razumem',
-    setting: "Zasedeni smo z nameščanjem vaše",
+    setting: 'Zasedeni smo z nameščanjem vaše',
     wallet: 'Ether-1 Denarnice',
     address: 'Spodaj je vaš edinstven naslov denarnice:',
     pkey: 'Spodaj je vaš zasebni ključ:',
     backup_pkey: 'Ne pozabite, da varnostno kopirate zasebni ključ!',
-    got_it: "Imam ga!",
-    set: "Vse je pripravljeni, tvoj",
+    got_it: 'Imam ga!',
+    set: 'Vse je pripravljeni, tvoj',
     ready: 'je pripravljen!',
     by: 'z:',
     funded: 'financirano',
@@ -146,6 +146,7 @@ export default {
     tx_failed: 'TRANSAKCIJA NI USPELA',
     online: 'Cloud Contact',
     no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
+    add: 'Download Contact',
   },
   // Settings Page
   settings: {

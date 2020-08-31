@@ -70,7 +70,7 @@ export default {
     not_signed_in: 'Please Sign in',
     markets_not_supported: 'Market Stats Not Supported on:',
     conv_not_supported: 'Price Conversion Not Supported on:',
-    transactions_not_supported: 'TX Tracking is not available on:'
+    transactions_not_supported: 'TX Tracking is not available on:',
   },
   // User Index (Wallet Setup)
   index: {
@@ -84,13 +84,13 @@ export default {
     client: 'Vous êtes responsable de votre portefeuille, la application est entièrement côté client et utilise uniquement notre RPC pour diffuser les transactions.',
     pin: "Si vous désactivez l'identifiant PIN, Face ou Touch de votre téléphone, vous perdrez l'accès à votre portefeuille et à vos fonds, c'est pourquoi vous devez sauvegarder votre clé privée",
     understand: 'Je comprends',
-    setting: "Nous sommes occupés à configurer votre",
+    setting: 'Nous sommes occupés à configurer votre',
     wallet: 'Ether-1 Wallet',
     address: 'Voici votre adresse de portefeuille unique:',
     pkey: 'Ci-dessous est votre clé privée:',
     backup_pkey: 'Oubliez pas de sauvegarder votre clé privée!',
     got_it: "J'ai compris!",
-    set: "Vous êtes prêt, votre",
+    set: 'Vous êtes prêt, votre',
     ready: 'est prêt!',
     by: 'par:',
     funded: 'financé',
@@ -150,6 +150,7 @@ export default {
     git: 'Ether-1 Github',
     online: 'Cloud Contact',
     no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
+    add: 'Download Contact',
   },
   // Settings Page
   settings: {

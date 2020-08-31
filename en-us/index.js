@@ -70,7 +70,7 @@ export default {
     not_signed_in: 'Please Sign in',
     markets_not_supported: 'Market Stats Not Supported on:',
     conv_not_supported: 'Price Conversion Not Supported on:',
-    transactions_not_supported: 'TX Tracking is not available on:'
+    transactions_not_supported: 'TX Tracking is not available on:',
   },
   // User Index (Wallet Setup)
   index: {
@@ -146,6 +146,7 @@ export default {
     tx_failed: 'TRANSACTION FAILED',
     online: 'Cloud Contact',
     no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
+    add: 'Download Contact',
   },
   // Settings Page
   settings: {
