@@ -98,7 +98,7 @@ export default {
     the_wallet: 'Ether-1 lommeboken var',
     secure: 'Sikre lommeboken mi',
     encrypt: 'Krypter lommeboken:',
-    wallet_name: 'Navn på lommeboken',
+    wallet_name: 'Brukernavn',
     use_pin: 'Legg inn en unik pin',
     confirm: 'Bekreft din pin',
     required_name: 'Navn på lommeboken er påkrevd',
@@ -108,6 +108,7 @@ export default {
     weak_pin: 'Den valgte koden er veldig svak. Den må være minst 10 tegn lang og ha et tall.',
     copied: 'Teksten er kopiert',
     language: 'Velg ønsket språk:',
+    unreg: 'Hei! Vi har lagt merke til at kontoen din er uregistrert. For å få tilgang til og bruke skykontakter, krever vi at du bekrefter brukernavnet ditt. Når du har trykket på bekreft, KAN IKKE endres brukernavnet ditt. Ingen personlige opplysninger lagres i skyen.',
   },
   // Receive Page
   receive: {

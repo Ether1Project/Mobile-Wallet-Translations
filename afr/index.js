@@ -98,7 +98,7 @@ export default {
     the_wallet: 'Die Ether-1 Wallet was',
     secure: 'Beveilig my beursie',
     encrypt: 'Enkripteer u beursie:',
-    wallet_name: 'Walletnaam',
+    wallet_name: 'Gebruikersnaam',
     use_pin: "Voer 'n unieke speld in",
     confirm: 'Bevestig u speld',
     required_name: "'N Wallet-naam word benodig",
@@ -108,6 +108,7 @@ export default {
     weak_pin: "Die gekose pin is baie swak. Dit moet minstens 10 karakters lank wees en 'n nommer hê.",
     copied: 'Gekopieerde teks',
     language: 'Kies u voorkeurtaal:',
+    unreg: 'Haai! Ons het opgemerk dat u rekening nie geregistreer is nie. Om toegang tot wolkkontakte te verkry en te gebruik, moet u u gebruikersnaam bevestig. Sodra u druk, kan u gebruikersnaam NIE verander word nie. Geen persoonlike inligting word in die wolk gestoor nie.',
   },
   // Receive Page
   receive: {

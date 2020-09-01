@@ -98,7 +98,7 @@ export default {
     the_wallet: 'Le Ether-1 Wallet était',
     secure: 'Sécuriser mon portefeuille',
     encrypt: 'Chiffrez votre portefeuille:',
-    wallet_name: 'Nom du portefeuille',
+    wallet_name: "Nom d'utilisateur",
     use_pin: 'Entrez une PIN unique',
     confirm: 'Confirmez votre code PIN',
     required_name: 'Un nom de portefeuille est requis',
@@ -108,6 +108,7 @@ export default {
     weak_pin: 'Le PIN choisie est très faible. Il doit comporter au moins 10 caractères et avoir un numéro.',
     copied: 'Texte copié',
     language: 'Veuillez sélectionner votre langue préférée:',
+    unreg: "Hey! Nous avons remarqué que votre compte n'est pas enregistré. Afin d'accéder et d'utiliser les contacts cloud, nous vous demandons de confirmer votre nom d'utilisateur. Une fois que vous appuyez sur, confirmez que votre nom d'utilisateur NE PEUT PAS être modifié. Aucune information personnelle n'est stockée dans le cloud.",
   },
   // Receive Page
   receive: {

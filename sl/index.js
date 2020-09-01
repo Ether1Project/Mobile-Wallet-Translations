@@ -98,7 +98,7 @@ export default {
     the_wallet: 'Denarnica Ether-1 je bila',
     secure: 'Zavaruj mojo denarnico',
     encrypt: 'Šifrirajte denarnico:',
-    wallet_name: 'Ime Denarnice',
+    wallet_name: 'Uporabniško ime',
     use_pin: 'Izberite pin',
     confirm: 'Potrdite vaš pin',
     required_name: 'Ime Denarnice je zahtevano',
@@ -108,6 +108,7 @@ export default {
     weak_pin: 'Izbrani pin je zelo šibak. Dolg mora biti vsaj 10 znakov in imeti številko.',
     copied: 'Kopirano besedilo',
     language: 'Izberite želeni jezik:',
+    unreg: 'Zdravo! Opazili smo, da vaš račun ni registriran. Za dostop in uporabo stikov v oblaku zahtevamo, da potrdite svoje uporabniško ime. Ko pritisnete, potrdite, da uporabniškega imena NI MOGOČE več spreminjati. V oblaku niso shranjeni nobeni osebni podatki.',
   },
   // Receive Page
   receive: {

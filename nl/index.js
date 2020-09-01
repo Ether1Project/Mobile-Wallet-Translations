@@ -98,7 +98,7 @@ export default {
     the_wallet: 'De Ether-1 Wallet was',
     secure: 'Beveilig mijn portomonnee',
     encrypt: 'Versleutel mijn portomonnee:',
-    wallet_name: 'Portemonnee naam',
+    wallet_name: 'Gebruikersnaam',
     use_pin: 'Voer een unieke code in',
     confirm: 'Bevestig uw code',
     required_name: 'Gelieve je portomonnee een naam te geven',
@@ -108,6 +108,7 @@ export default {
     weak_pin: 'De gekozen pincode is zeer zwak. Gelieve minstens 10 karakters te gebruiken waaronder 1 cijfer.',
     copied: 'Tekst gekopierd',
     language: 'Please select your preferred language:',
+    unreg: 'Hallo! We hebben gemerkt dat uw account niet is geregistreerd. Om toegang te krijgen tot en gebruik te maken van cloudcontacten, moet u uw gebruikersnaam bevestigen. Zodra u op bevestigt, kan uw gebruikersnaam NIET worden gewijzigd. Er wordt geen persoonlijke informatie opgeslagen in de cloud.',
   },
   // Receive Page
   receive: {

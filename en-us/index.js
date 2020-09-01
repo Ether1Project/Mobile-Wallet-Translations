@@ -98,7 +98,7 @@ export default {
     the_wallet: 'The Ether-1 Wallet was',
     secure: 'Secure my wallet',
     encrypt: 'Encrypt your wallet:',
-    wallet_name: 'Wallet Name',
+    wallet_name: 'Username',
     use_pin: 'Enter a Unique pin',
     confirm: 'Confirm your pin',
     required_name: 'A Wallet name is required',
@@ -108,6 +108,7 @@ export default {
     weak_pin: 'The chosen pin is very weak. It must be at least 10 characters long and have a number.',
     copied: 'Copied Text',
     language: 'Please select your preferred language:',
+    unreg: 'Hey! We have noticed that your account is unregistered. In order to access & use cloud contacts we require you to confirm your Username. Once you press confirm your username CANNOT be changed. No personal information is stored in the cloud.',
   },
   // Receive Page
   receive: {
