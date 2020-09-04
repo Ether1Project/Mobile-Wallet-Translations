@@ -4,6 +4,7 @@ import Afr from './afr';
 import Nl from './nl';
 import No from './no';
 import Sl from './sl';
+import Es from './es';
 
 export default {
   'en-us': enUS,
@@ -12,4 +13,5 @@ export default {
   nl: Nl,
   no: No,
   sl: Sl,
+  es: Es,
 };
