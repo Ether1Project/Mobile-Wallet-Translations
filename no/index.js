@@ -15,7 +15,7 @@ export default {
     supcurr: 'Støttede valutaer',
     suplang: 'Støttede språk',
     keystore: 'Eksporter Keystore',
-    supnet: 'Supported Networks',
+    supnet: 'Støttede nettverk',
   },
   // About Component
   about: {
@@ -67,10 +67,10 @@ export default {
     txs: 'Transaksjoner',
     error_getting_txs: 'Feil ved henting av transaksjoner',
     copied: 'Teksten er kopiert',
-    not_signed_in: 'Please Sign in',
-    markets_not_supported: 'Market Stats Not Supported on:',
-    conv_not_supported: 'Price Conversion Not Supported on:',
-    transactions_not_supported: 'TX Tracking is not available on:',
+    not_signed_in: 'Vennligst logg inn',
+    markets_not_supported: 'Markeds statistikk støttes ikke på:',
+    conv_not_supported: 'Priskonvertering støttes ikke på:',
+    transactions_not_supported: 'TX Sporing er ikke tilgjengelig på:',
   },
   // User Index (Wallet Setup)
   index: {
@@ -145,9 +145,9 @@ export default {
     app_error: 'Uventet feil. Installer appen på nytt',
     tx_success: 'TRANSAKSJON FULLFØRT',
     tx_failed: 'TRANSAKSJON FEILET',
-    online: 'Cloud Contact',
-    no_online: 'Please search for a username, if none appear here, they do not exist in our database.',
-    add: 'Download Contact',
+    online: 'Skykontakt',
+    no_online: 'Vennligst søk etter et brukernavn, hvis ingen vises her, finnes de ikke i databasen vår.',
+    add: 'Last ned kontakt',
   },
   // Settings Page
   settings: {
@@ -167,7 +167,7 @@ export default {
     about_ncr: 'Om tredjepartsutvikler (newCodeRunner)',
     stats: 'Ether-1 Nettverks Statistikk',
     git: 'Ether-1 Github',
-    select_network: 'Select Blockchain',
+    select_network: 'Velg Blockchain',
   },
   // SupportedCurrencies Page
   SupportedCurrencies: {
