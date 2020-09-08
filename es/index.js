@@ -153,7 +153,7 @@ export default {
   settings: {
     node_stats: 'Estadísticas de Nodo:',
     chain_id: 'ChainID:',
-    Blockheight: 'Blockheigh actual:',
+    Blockheight: 'Blockheight actual:',
     version: 'Versión de Nodo:',
     sync_status: 'Estado de Sincronización:',
     app: 'Configuración de la Aplicación',
