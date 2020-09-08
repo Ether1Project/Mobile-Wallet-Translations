@@ -157,7 +157,7 @@ export default {
   settings: {
     node_stats: 'Status de Node:',
     chain_id: 'ChainID:',
-    Blockheight: 'Blockheigh Actuelle:',
+    Blockheight: 'Blockheight Actuelle:',
     version: 'Node Version:',
     sync_status: 'Sync Status:',
     app: "Paramètres de l'application",
