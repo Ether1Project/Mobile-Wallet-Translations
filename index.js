@@ -5,6 +5,7 @@ import Nl from './nl';
 import No from './no';
 import Sl from './sl';
 import Es from './es';
+import Hr from './hr';
 
 export default {
   'en-us': enUS,
@@ -14,4 +15,5 @@ export default {
   no: No,
   sl: Sl,
   es: Es,
+  hr: Hr,
 };
