@@ -88,7 +88,7 @@ export default {
     wallet: 'Ether-1 Novčanika',
     address: 'Ispod je vaša jedinstvena adresa novčanika:',
     pkey: 'Ispod je vaš privatni ključ:',
-    backup_pkey: 'Molimo vas ne zaboravite sigurnosno kopirati svoj privatni ključ!",
+    backup_pkey: 'Molimo vas ne zaboravite sigurnosno kopirati svoj privatni ključ!',
     set: "Sve je spremno, vaš",
     ready: 'je spreman!',
     by: 'od:',
