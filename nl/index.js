@@ -18,77 +18,77 @@ export default {
     supnet: 'Supported Networks',
   },
   lending_dapp: {
-    accept: 'Accept',
-    decline: 'Decline',
+    accept: 'Accepteren',
+    decline: 'Negeren',
     beta: 'Mobile Beta',
-    myContracts: 'My Contracts',
-    toRemove: "If you'd like to remove a contract, simply press on the contract.",
+    myContracts: 'Mijn Contracten',
+    toRemove: "Als u een contract wenst te verwijderen, drukt u op het gewenste contract.",
     type: 'Type',
-    available: 'Available',
-    noContractsOrLoading: 'No Contracts found OR Data is Loading...',
-    welcome: 'Welcome to the Ether-1 Lending Dapp',
-    desc: `The Ether-1 node staking dashboard provides ETHO stake holders and node
-    operators a chance to come together and profit from an Ether-1 node,
-    providing a valuable service to the Ether-1 & ethoFS networks, all while
-    remaining completely decentralized in nature.`,
-    desc_expanded: `Our staking is unique because it doesn’t increase ETHO inflation and it
-    not only locks up coins, it also provides more fully operational
-    Ether-1/ethoFS nodes to make our community data swarm even greater.`,
-    termsHeading: 'Terms of Agreement',
-    term1: `Borrower and Lender both agree they understand and consent to the
-    terms and conditions below upon entering their private keys on
-    this website.`,
-    term2: `After claiming an available staking contract, Borrower has 50,000
-    blocks to setup an active and paying Ether-1 node using Lender's
-    smart contract stake. Failure to do so gives Lender the option to
-    collect Borrower's origination fee.`,
-    term3: `When Borrower's Ether-1 node produces its first reward payment
-    within 50,000 blocks, contract status is changed from inactive to
-    active. The contract status is changed back to inactive if the
-    Borrower's node loses its paying status for a single payment
-    period. Lender has the option to reset/remove an inactive contract
-    between 50,000 and 199,999 blocks and collect Borrower’s
-    origination fee.`,
-    term4: `Lender can reset/remove an active contract after 200,000 blocks
-    with the origination fee returned to the Borrower. Borrower can
-    abandon an active contract after 200,000 blocks with the
-    origination fee returned to the Borrower.`,
-    term5: `If Borrower abandons an active contract within the first 200,000
-    blocks, security deposit is forfeited to the Lender.`,
-    term6: `Lender can cancel an active contract only after 200,000 blocks,
-    with 95% of the origination fee returned to the Borrower.`,
-    notes: 'NOTES',
-    note1: `Lender has the option to stipulate additional Terms and Conditions
-    within each staking contract. By claiming the staking contract,
-    Borrower agrees to Lender's additional Term and Conditions.`,
-    note2: `Lender's additional stipulated Terms and Conditions do not
-    supersede Smart Contract rules (1) through (6) listed above.`,
-    nodeTypeAndSpilt: 'Select Node Type & Select Lender Split',
-    create: 'Create A Lending Contract',
-    get: 'Get Contracts',
-    select: 'Select Node Type',
-    split: 'Select Desired Lender Split %',
-    fee: 'Select Desired Origination Fee',
-    addTCs: 'Enter Addition Terms & Conditions',
-    badNetwork: 'Incorrect Network',
-    badDesc: 'Please Connect to the Ether-1 Network, if you wish to access the Staking dApp.',
-    success: 'Success!',
-    smsg: 'Your Lending Contract has been add to the staking platform.',
-    error: 'ERROR',
-    emsg1: 'You do NOT have enough balance to deploy this stake. You currently have',
-    emsg2: 'ETHO, You need a total of',
-    removedmsg: 'Your Lending Contract has been removed from the staking platform.',
+    available: 'Beschikbaar',
+    noContractsOrLoading: 'Geen contracten gevonden OF gegevens worden geladen...',
+    welcome: 'Welkom bij de Ether-1 Lending Dapp',
+    desc: `Het Ether-1 node staking dashboard biedt ETHO stake holders en node
+    operatoren een kans om samen te komen en te profiteren van een Ether-1 node,
+    het verstrekken van een waardevolle dienst aan de Ether-1 & ethoFS networken, dit alles
+    terwijl het volledig gedecentraliseerd blijft.`,
+    desc_expanded: `Onze inzet is uniek omdat het de ETHO-inflatie niet verhoogt
+    niet alleen vergrendelt munten, het biedt ook meer volledig operationeel
+    Ether-1 / ethoFS-knooppunten om onze community-gegevenszwerm nog groter te maken.`,
+    termsHeading: 'Voorwaarden',
+    term1: `Huurder en Verkhuurder zijn het erover eens dat ze de
+    voorwaarden hieronder bij het invoeren van hun privésleutels op
+    deze website accepteren.`,
+    term2: `Na het claimen van een beschikbaar uitzetcontract, heeft de huurder 50.000
+    blocks om een actief en betalend Ether-1-knooppunt/node op te zetten met behulp van de verhuurder's
+    smart contract inzet. Als u dit niet doet, heeft Huurder de mogelijkheid om dit te doen
+    incassokosten van de kredietnemer.`,
+    term3: `Wanneer het Ether-1-knooppunt/node van de huurder zijn eerste beloningsbetaling produceert
+    binnen de 50.000 blocks wordt de contractstatus gewijzigd van inactief naar
+    actief. De contractstatus wordt weer inactief gemaakt als
+    het knooppunt/node van de huurder verliest zijn betalingsstatus voor een enkele betaling
+    periode. Kredietgever heeft de mogelijkheid om een inactief contract te resetten / verwijderen
+    tussen 50.000 en 199.999 blocks en verzamel verhuurders
+    opstartkosten.`,
+    term4: `De verhuurder kan een actief contract na 200.000 blocks resetten / verwijderen
+    met de origination fee geretourneerd aan de huurder. De huurder kan
+    een actief contract na 200.000 blocks verlaten en de
+    origination fee wordt geretourneerd aan de huurder.`,
+    term5: `Als de Huurder een actief contract verlaat binnen de eerste 200.000
+    blocks, wordt de borg verbeurd aan de verhuurder.`,
+    term6: `De verhuurder kan een actief contract pas na 200.000 blocks annuleren,
+    met 95% van de origination fee geretourneerd aan de huurder.`,
+    notes: 'NOTITIES',
+    note1: `De verhuurder heeft de mogelijkheid om aanvullende voorwaarden te bedingen
+    binnen elk uitzetcontract. Door het uitzetcontract te claimen,
+    De huurder gaat akkoord met de aanvullende voorwaarden van de verhuurder.`,
+    note2: `De aanvullende voorwaarden van de kredietgever zijn dat niet
+    vervangen Smart Contract-regels (1) tot en met (6) hierboven vermeld.`,
+    nodeTypeAndSpilt: 'Selecteer Node Type & Selecteer Verhuurder Winst',
+    create: 'Maak een Verhuur Contract aan',
+    get: 'Toon Contracten',
+    select: 'Selecteer Node Type',
+    split: 'Selecteer Gewenste Verhuurder Winst %',
+    fee: 'Selecteer Gewenste Originatievergoeding',
+    addTCs: 'Vul aan met eventuele extra voorwaarden',
+    badNetwork: 'Foutief Netwerk',
+    badDesc: 'Connecteer aub met het  Ether-1 Netwerk, indien u toegang wenst tot de Staking dApp.',
+    success: 'Gelukt!',
+    smsg: 'Uw Verhuurders Contract is toegevoegd aan het staking platform.',
+    error: 'FOUT',
+    emsg1: 'Je hebt NIET genoeg saldo om deze inzet in te zetten. Je hebt momenteel',
+    emsg2: 'ETHO, U hebt zoveel nodig',
+    removedmsg: 'Uw Verhuurders Contract is verwijderd van het platform.',
   },
   nodes: {
-    active: 'Active',
-    stats: 'Node Stats',
-    rewards: 'Last Reward for',
-    owned: 'Owned Node Type',
-    balance: 'Collateral Balance',
+    active: 'Actief',
+    stats: 'Node Status',
+    rewards: 'Laatste Beloning voor',
+    owned: 'Eigen Node Types',
+    balance: 'Onderpand Saldo',
     status: 'Node Status',
-    rec: 'ETHO Received in Collateral Address',
-    sent: 'ETHO Sent from Collateral Address',
-    noData: 'No Data.',
+    rec: 'ETHO Ontvangen in uw Onderpand Adres',
+    sent: 'ETHO Verstuurd vanuit uw Onderpand Adres,
+    noData: 'Geen gegevens.',
   },
   // About Component
   about: {
