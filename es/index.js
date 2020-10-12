@@ -17,6 +17,79 @@ export default {
     keystore: 'Exportar llave',
     supnet: 'Redes',
   },
+  lending_dapp: {
+    accept: 'Accept',
+    decline: 'Decline',
+    beta: 'Mobile Beta',
+    myContracts: 'My Contracts',
+    toRemove: "If you'd like to remove a contract, simply press on the contract.",
+    type: 'Type',
+    available: 'Available',
+    noContractsOrLoading: 'No Contracts found OR Data is Loading...',
+    welcome: 'Welcome to the Ether-1 Lending Dapp',
+    desc: `The Ether-1 node staking dashboard provides ETHO stake holders and node
+    operators a chance to come together and profit from an Ether-1 node,
+    providing a valuable service to the Ether-1 & ethoFS networks, all while
+    remaining completely decentralized in nature.`,
+    desc_expanded: `Our staking is unique because it doesn’t increase ETHO inflation and it
+    not only locks up coins, it also provides more fully operational
+    Ether-1/ethoFS nodes to make our community data swarm even greater.`,
+    termsHeading: 'Terms of Agreement',
+    term1: `Borrower and Lender both agree they understand and consent to the
+    terms and conditions below upon entering their private keys on
+    this website.`,
+    term2: `After claiming an available staking contract, Borrower has 50,000
+    blocks to setup an active and paying Ether-1 node using Lender's
+    smart contract stake. Failure to do so gives Lender the option to
+    collect Borrower's origination fee.`,
+    term3: `When Borrower's Ether-1 node produces its first reward payment
+    within 50,000 blocks, contract status is changed from inactive to
+    active. The contract status is changed back to inactive if the
+    Borrower's node loses its paying status for a single payment
+    period. Lender has the option to reset/remove an inactive contract
+    between 50,000 and 199,999 blocks and collect Borrower’s
+    origination fee.`,
+    term4: `Lender can reset/remove an active contract after 200,000 blocks
+    with the origination fee returned to the Borrower. Borrower can
+    abandon an active contract after 200,000 blocks with the
+    origination fee returned to the Borrower.`,
+    term5: `If Borrower abandons an active contract within the first 200,000
+    blocks, security deposit is forfeited to the Lender.`,
+    term6: `Lender can cancel an active contract only after 200,000 blocks,
+    with 95% of the origination fee returned to the Borrower.`,
+    notes: 'NOTES',
+    note1: `Lender has the option to stipulate additional Terms and Conditions
+    within each staking contract. By claiming the staking contract,
+    Borrower agrees to Lender's additional Term and Conditions.`,
+    note2: `Lender's additional stipulated Terms and Conditions do not
+    supersede Smart Contract rules (1) through (6) listed above.`,
+    nodeTypeAndSpilt: 'Select Node Type & Select Lender Split',
+    create: 'Create A Lending Contract',
+    get: 'Get Contracts',
+    select: 'Select Node Type',
+    split: 'Select Desired Lender Split %',
+    fee: 'Select Desired Origination Fee',
+    addTCs: 'Enter Addition Terms & Conditions',
+    badNetwork: 'Incorrect Network',
+    badDesc: 'Please Connect to the Ether-1 Network, if you wish to access the Staking dApp.',
+    success: 'Success!',
+    smsg: 'Your Lending Contract has been add to the staking platform.',
+    error: 'ERROR',
+    emsg1: 'You do NOT have enough balance to deploy this stake. You currently have',
+    emsg2: 'ETHO, You need a total of',
+    removedmsg: 'Your Lending Contract has been removed from the staking platform.',
+  },
+  nodes: {
+    active: 'Active',
+    stats: 'Node Stats',
+    rewards: 'Last Reward for',
+    owned: 'Owned Node Type',
+    balance: 'Collateral Balance',
+    status: 'Node Status',
+    rec: 'ETHO Received in Collateral Address',
+    sent: 'ETHO Sent from Collateral Address',
+    noData: 'No Data.',
+  },
   // About Component
   about: {
     version: 'Version:',
