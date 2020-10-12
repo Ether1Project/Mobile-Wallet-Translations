@@ -18,77 +18,77 @@ export default {
     supnet: 'Støttede nettverk',
   },
   lending_dapp: {
-    accept: 'Accept',
-    decline: 'Decline',
+    accept: 'Aksepterer',
+    decline: 'Avslå',
     beta: 'Mobile Beta',
-    myContracts: 'My Contracts',
-    toRemove: "If you'd like to remove a contract, simply press on the contract.",
+    myContracts: 'Mine kontrakter',
+    toRemove: "Hvis du vil fjerne en kontrakt, trykker du bare på kontrakten.",
     type: 'Type',
-    available: 'Available',
-    noContractsOrLoading: 'No Contracts found OR Data is Loading...',
-    welcome: 'Welcome to the Ether-1 Lending Dapp',
-    desc: `The Ether-1 node staking dashboard provides ETHO stake holders and node
-    operators a chance to come together and profit from an Ether-1 node,
-    providing a valuable service to the Ether-1 & ethoFS networks, all while
-    remaining completely decentralized in nature.`,
-    desc_expanded: `Our staking is unique because it doesn’t increase ETHO inflation and it
-    not only locks up coins, it also provides more fully operational
-    Ether-1/ethoFS nodes to make our community data swarm even greater.`,
-    termsHeading: 'Terms of Agreement',
-    term1: `Borrower and Lender both agree they understand and consent to the
-    terms and conditions below upon entering their private keys on
-    this website.`,
-    term2: `After claiming an available staking contract, Borrower has 50,000
-    blocks to setup an active and paying Ether-1 node using Lender's
-    smart contract stake. Failure to do so gives Lender the option to
-    collect Borrower's origination fee.`,
-    term3: `When Borrower's Ether-1 node produces its first reward payment
-    within 50,000 blocks, contract status is changed from inactive to
-    active. The contract status is changed back to inactive if the
-    Borrower's node loses its paying status for a single payment
-    period. Lender has the option to reset/remove an inactive contract
-    between 50,000 and 199,999 blocks and collect Borrower’s
-    origination fee.`,
-    term4: `Lender can reset/remove an active contract after 200,000 blocks
-    with the origination fee returned to the Borrower. Borrower can
-    abandon an active contract after 200,000 blocks with the
-    origination fee returned to the Borrower.`,
-    term5: `If Borrower abandons an active contract within the first 200,000
-    blocks, security deposit is forfeited to the Lender.`,
-    term6: `Lender can cancel an active contract only after 200,000 blocks,
-    with 95% of the origination fee returned to the Borrower.`,
-    notes: 'NOTES',
-    note1: `Lender has the option to stipulate additional Terms and Conditions
-    within each staking contract. By claiming the staking contract,
-    Borrower agrees to Lender's additional Term and Conditions.`,
-    note2: `Lender's additional stipulated Terms and Conditions do not
-    supersede Smart Contract rules (1) through (6) listed above.`,
-    nodeTypeAndSpilt: 'Select Node Type & Select Lender Split',
-    create: 'Create A Lending Contract',
-    get: 'Get Contracts',
-    select: 'Select Node Type',
-    split: 'Select Desired Lender Split %',
-    fee: 'Select Desired Origination Fee',
-    addTCs: 'Enter Addition Terms & Conditions',
-    badNetwork: 'Incorrect Network',
-    badDesc: 'Please Connect to the Ether-1 Network, if you wish to access the Staking dApp.',
-    success: 'Success!',
-    smsg: 'Your Lending Contract has been add to the staking platform.',
-    error: 'ERROR',
-    emsg1: 'You do NOT have enough balance to deploy this stake. You currently have',
-    emsg2: 'ETHO, You need a total of',
-    removedmsg: 'Your Lending Contract has been removed from the staking platform.',
+    available: 'Tilgjengelig',
+    noContractsOrLoading: 'Ingen kontrakter funnet ELLER Data lastes inn...',
+    welcome: 'Velkommen til Ether-1 Lending dApp',
+    desc: `Ether-1 node staking dashboard gir ETHO stakeholdere og node
+    operatører en sjanse til å gå sammen og tjene på en Ether-1-node,
+    levere en verdifull tjeneste til Ether-1 & ethoFS-nettverket, og hele tiden
+    forblir helt naturlig desentralisert.`,
+    desc_expanded: `Vår "staking" er unik, ikke bare fordi den ikke øker ETHO-inflasjonen, den
+    låser også ETHO, som gir ett bedre og mer operativt
+    Ether-1/ethoFS node system, samt en enda større data sverm.`,
+    termsHeading: 'Vilkår for avtale',
+    term1: `Låntaker og utlåner er begge enige om at de forstår og godtar
+    vilkårene nedenfor når du angir de private nøklene
+    dette nettstedet.`,
+    term2: `Etter å ha gjort krav på en tilgjengelig staking kontrakt, har låntaker 50.000
+    blokkerer for å sette opp en aktiv og betalende Ether-1-node ved hjelp av låntakers
+    smart kontraktsandel. Unnlatelse av å gjøre dette gir låntaker muligheten til
+    samle låntakers opprinnelsesgebyr.`,
+    term3: `Når låntakers Ether-1-node produserer sin første belønning
+    innen 50 000 blokker endres kontraktstatus fra inaktiv til
+    aktiv. Kontraktsstatusen endres tilbake til inaktiv hvis
+    låntakers node mister betalingsstatus for en enkelt betaling
+    periode. Långiver har muligheten til å tilbakestille/fjerne en inaktiv kontrakt
+    mellom 50 000 og 199 999 blokker og kreve låntakers
+    opprinnelsesgebyr.`,
+    term4: `Långiver kan tilbakestille/fjerne en aktiv kontrakt etter 200.000 blokker
+    med opprinnelsesgebyret returnert til låntakeren. Låntaker kan
+    forlate en aktiv kontrakt etter 200 000 blokker med
+    opprinnelsesgebyr returnert til låntakeren.`,
+    term5: `Hvis låntakeren forlater en aktiv kontrakt innen de første 200 000
+    blokkene, blir depositum gitt til långiveren.`,
+    term6: `Långiver kan kansellere en aktiv kontrakt bare etter 200.000 blokker,
+    med 95% av opprinnelsesgebyret returnert til låntakeren.`,
+    notes: 'MERKNADER',
+    note1: `Långiveren har muligheten til å fastsette tilleggsbetingelser
+    innenfor hver staking kontrakt. Ved å godta staking kontrakten,
+    godtar også låntaker, utlåners tilleggsvilkår.`,
+    note2: `Långivarens tilleggsbestemte vilkår erstatter ikke reglene for 
+    smart kontrakten (1) til (6) som er oppført ovenfor.`,
+    nodeTypeAndSpilt: 'Velg node type og velg låntakers anndel',
+    create: 'Lag en utlånskontrakt',
+    get: 'Få kontrakter',
+    select: 'Velg node type',
+    split: 'Velg ønsket utlåns andel %',
+    fee: 'Velg ønsket opprinnelsesgebyr',
+    addTCs: 'Angi tilleggs vilkår og betingelser',
+    badNetwork: 'Feil nettverk',
+    badDesc: 'Koble til Ether-1-nettverket hvis du ønsker tilgang til staking dApp.',
+    success: 'Suksess!',
+    smsg: 'Din utlånskontrakt har blitt lagt til staking plattformen.',
+    error: 'FEIL',
+    emsg1: 'Du har IKKE nok balanse til å opprette denne kontrakten. Du har for øyeblikket',
+    emsg2: 'ETHO, du trenger totalt',
+    removedmsg: 'Din utlånskontrakt er fjernet fra staking plattformen.',
   },
   nodes: {
-    active: 'Active',
-    stats: 'Node Stats',
-    rewards: 'Last Reward for',
-    owned: 'Owned Node Type',
-    balance: 'Collateral Balance',
-    status: 'Node Status',
-    rec: 'ETHO Received in Collateral Address',
-    sent: 'ETHO Sent from Collateral Address',
-    noData: 'No Data.',
+    active: 'Aktiv',
+    stats: 'Node statistikk',
+    rewards: 'Siste belønning for',
+    owned: 'Node type',
+    balance: 'Balanse',
+    status: 'Node status',
+    rec: 'ETHO mottatt i adresse',
+    sent: 'ETHO sendt fra addresse',
+    noData: 'Ingen data.',
   },
   // About Component
   about: {
