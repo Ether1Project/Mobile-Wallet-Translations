@@ -16,6 +16,15 @@ export default {
     suplang: 'Supported Languages',
     keystore: 'Export Keystore',
     supnet: 'Supported Networks',
+    staking: 'Staking dApp',
+    node: 'Node Stats',
+  },
+  lending_dapp: {
+    myContracts: 'My Contracts',
+    toRemove: "If you'd like to remove a contract, simply press on the contract.",
+    type: 'Type',
+    available: 'Available',
+    noContractsOrLoading: 'No Contracts found OR Data is Loading...',
   },
   // About Component
   about: {
