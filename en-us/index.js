@@ -81,6 +81,17 @@ export default {
     emsg2: 'ETHO, You need a total of',
     removedmsg: 'Your Lending Contract has been removed from the staking platform.',
   },
+  nodes: {
+    active: 'Active',
+    stats: 'Node Stats',
+    rewards: 'Last Reward for',
+    owned: 'Owned Node Type',
+    balance: 'Collateral Balance',
+    status: 'Node Status',
+    rec: 'ETHO Received in Collateral Address',
+    sent: 'ETHO Sent from Collateral Address',
+    noData: 'No Data.',
+  },
   // About Component
   about: {
     version: 'Version:',
