@@ -87,7 +87,7 @@ export default {
     balance: 'Onderpand Saldo',
     status: 'Node Status',
     rec: 'ETHO Ontvangen in uw Onderpand Adres',
-    sent: 'ETHO Verstuurd vanuit uw Onderpand Adres,
+    sent: 'ETHO Verstuurd vanuit uw Onderpand Adres',
     noData: 'Geen gegevens.',
   },
   // About Component
