@@ -27,19 +27,19 @@ export default {
     available: 'Tilgjengelig',
     noContractsOrLoading: 'Ingen kontrakter funnet ELLER Data lastes inn...',
     welcome: 'Velkommen til Ether-1 Lending dApp',
-    desc: `Ether-1 node staking dashboard gir ETHO stakeholdere og node
+    desc: `Ether-1 node staking dashboard gir ETHO holdere og node
     operatører en sjanse til å gå sammen og tjene på en Ether-1-node,
     levere en verdifull tjeneste til Ether-1 & ethoFS-nettverket, og hele tiden
     forblir helt naturlig desentralisert.`,
     desc_expanded: `Vår "staking" er unik, ikke bare fordi den ikke øker ETHO-inflasjonen, den
-    låser også ETHO, som gir ett bedre og mer operativt
+    fryser også ETHO, som gir ett bedre og mer operativt
     Ether-1/ethoFS node system, samt en enda større data sverm.`,
     termsHeading: 'Vilkår for avtale',
     term1: `Låntaker og utlåner er begge enige om at de forstår og godtar
     vilkårene nedenfor når du angir de private nøklene
     dette nettstedet.`,
-    term2: `Etter å ha gjort krav på en tilgjengelig staking kontrakt, har låntaker 50.000
-    blokkerer for å sette opp en aktiv og betalende Ether-1-node ved hjelp av låntakers
+    term2: `Etter å ha gjort krav på en tilgjengelig staking kontrakt, har låntaker 50 000
+    blokker for å sette opp en aktiv og betalende Ether-1-node ved hjelp av låntakers
     smart kontraktsandel. Unnlatelse av å gjøre dette gir låntaker muligheten til
     samle låntakers opprinnelsesgebyr.`,
     term3: `Når låntakers Ether-1-node produserer sin første belønning
@@ -49,21 +49,21 @@ export default {
     periode. Långiver har muligheten til å tilbakestille/fjerne en inaktiv kontrakt
     mellom 50 000 og 199 999 blokker og kreve låntakers
     opprinnelsesgebyr.`,
-    term4: `Långiver kan tilbakestille/fjerne en aktiv kontrakt etter 200.000 blokker
+    term4: `Långiver kan tilbakestille/fjerne en aktiv kontrakt etter 200 000 blokker
     med opprinnelsesgebyret returnert til låntakeren. Låntaker kan
     forlate en aktiv kontrakt etter 200 000 blokker med
     opprinnelsesgebyr returnert til låntakeren.`,
     term5: `Hvis låntakeren forlater en aktiv kontrakt innen de første 200 000
     blokkene, blir depositum gitt til långiveren.`,
-    term6: `Långiver kan kansellere en aktiv kontrakt bare etter 200.000 blokker,
+    term6: `Långiver kan kansellere en aktiv kontrakt bare etter 200 000 blokker,
     med 95% av opprinnelsesgebyret returnert til låntakeren.`,
     notes: 'MERKNADER',
     note1: `Långiveren har muligheten til å fastsette tilleggsbetingelser
     innenfor hver staking kontrakt. Ved å godta staking kontrakten,
     godtar også låntaker, utlåners tilleggsvilkår.`,
-    note2: `Långivarens tilleggsbestemte vilkår erstatter ikke reglene for 
+    note2: `Långiverens tilleggsbestemte vilkår erstatter ikke reglene for 
     smart kontrakten (1) til (6) som er oppført ovenfor.`,
-    nodeTypeAndSpilt: 'Velg node type og velg låntakers anndel',
+    nodeTypeAndSpilt: 'Velg node type og velg låntakers andel',
     create: 'Lag en utlånskontrakt',
     get: 'Få kontrakter',
     select: 'Velg node type',
